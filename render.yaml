@@ -15,6 +15,6 @@ services:
   plan: free
   region: oregon
   buildCommand: pip install "fastapi[standard]"
-  startCommand: fastapi dev main.py
+  startCommand: fastapi run main.py
   rootDir: ./app
 version: "1"
